@@ -2,8 +2,8 @@
 
 
 .container-main {
-  width: 1920px;
-  max-width: 100%;
+  max-width: 1920px;
+  width: 100%;
   background-image: url(../images/main-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@
   color: #c70e92;
 }
 .burger-bar {
-  display: none;
+  display: block;
   font-size: 25px;
   margin: 5px;
   color: #fff;
@@ -97,6 +97,10 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
+}
+.headline-wraper {
+  display: block;
+  margin: 0 auto;
 }
 .headline {
   color: white;
